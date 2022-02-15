@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste Vita</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <form action="main.js" method="POST" id="formulario">
+      <input type="number" name="esp1" placeholder="Espécie 1" />
+      <input type="number" name="esp2" placeholder="Espécie 2" />
+      <input type="number" name="esp3" placeholder="Espécie 3" />
+      <input type="number" name="esp4" placeholder="Espécie 4" />
+      <input type="number" name="esp5" placeholder="Espécie 5" />
+      <input type="submit" value="Enviar" id="formbtn" />
+    </form>
+    <div id="relatorio">
+      <p>teste</p>
+      <input
+        type="button"
+        value="Relatório"
+        id="relbtn"
+        onclick="getDatainPDF()"
+      />
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

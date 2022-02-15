@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+}
+#formulario,
+#relatorio {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+#formulario input,
+#relbtn {
+  transition: 0.3s;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#formbtn,
+#relbtn {
+  background: none;
+  border-color: aqua;
+  color: rgb(60, 0, 255);
+  letter-spacing: 1px;
+}
+
+#formbtn:hover,
+#relbtn:hover {
+  transition: 400ms;
+  background: aqua;
+  color: rgb(10, 22, 44);
+  font-size: 120%;
+  font-weight: bold;
+}
