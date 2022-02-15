@@ -5,10 +5,9 @@ Teste de desenvolvimento de api/frontend para vaga de colaborador na Vita.
 # Instruções para rodar o projeto:
 
 - Clone ou baixe o reposótiro para sua maquina
-- Com o servidor de desenvolvimento aberto (no desenvolvimento do teste foi usado o [XAMPP 3.3.0](https://www.apachefriends.org/pt_br/index.html) ), aconselhavel utilizar ele.
 - No diretório Raiz do projeto, com [COMPOSER](https://getcomposer.org/) e o interpretador de [PHP](https://www.php.net/) devidamente instalados, execute o comando "composer update"
  no diretório raiz do projeto.
- 
+ - Rode o servidor em algum servidor de desenvolvimento (no desenvolvimento do teste foi usado o [XAMPP 3.3.0](https://www.apachefriends.org/pt_br/index.html) ), aconselhavel utilizar ele.
 
  #### ATENÇÃO: 
  - **O PROJETO DEVE SER ACESSADO PELO ARQUIVO INDEX.HTML** que se encontra no diretório raiz do projeto.
