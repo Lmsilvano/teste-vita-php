@@ -10,8 +10,8 @@ Teste de desenvolvimento de api/frontend para vaga de colaborador na Vita.
 
  #### ATENÇÃO: 
  - **O PROJETO DEVE SER ACESSADO PELO ARQUIVO INDEX.HTML** que se encontra no diretório raiz do projeto.
- - No arquivo bootstrap.php encontra-se as configurações de conexão com o banco de dados, ajuste-as para seu ambiente.
- - No arquivo bootstrap.php, o parametro "'database' =>" indica o nome do banco de dados que **deve estar previamente criado para execução do teste.**
+ - No arquivo bootstrap.php(se encontra na raiz do projeto) encontra-se as configurações de conexão com o banco de dados, ajuste-as para seu ambiente.
+ - No arquivo bootstrap.php(se encontra na raiz do projeto), o parametro "'database' =>" indica o nome do banco de dados que **deve estar previamente criado para execução do teste.**
  
  
  
